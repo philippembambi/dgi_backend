@@ -1,4 +1,4 @@
-FROM node:python:3.7.0
+FROM node:python:3.10.13-slim
 
 WORKDIR /usr/src/app
 RUN pip install Flask && pip install pandas && pip install xlrd
